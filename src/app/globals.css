@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.lamabtn {
+  background-color: #f35c7a;
+  border-radius: 1.5rem;
+  padding: 12px 20px;
+  transition: all ease-in-out 300ms;
+}
+
+.lamabtn:active {
+  transform: scale(0.96);
+}
