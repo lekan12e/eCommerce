@@ -21,9 +21,7 @@ const HomePage = () => {
         <h1 className="text-2xl">New Products</h1>
         <ProductList />
       </div>
-      <div className="flex items-center justify-center">
-        <Link href="/rick">rick</Link>
-      </div>
+      <div className="flex items-center justify-center"></div>
     </div>
   );
 };
